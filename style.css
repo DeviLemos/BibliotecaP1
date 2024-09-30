@@ -1,0 +1,67 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(129, 15, 15);
+  text-align: center;
+}
+
+header {
+  background-color: brown;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  color: white;
+  padding: 1em;
+  margin: 0.5em;
+  border: 0.1em solid brown;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(191, 0, 38);
+}
+
+input,
+button {
+  padding: 0.8em;
+  margin-right: 0.5em;
+}
+button {
+  margin: 0.5em;
+  border: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+.remove-btn {
+  background-color: ;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+h2 {
+  color: rgb(231, 67, 67);
+}
+
+#detalhes-livro {
+  color: white;
+}
+
+
+footer{
+  background-color:brown;
+  padding: 2em;
+  text-align: center;
+}
+

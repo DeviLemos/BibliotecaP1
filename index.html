@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>Biblioteca de Livros</header>
+    
+    <input type="text" id="pesquisa" placeholder="Digite o termo da pesquisa" />
+    <button onclick="searchBooks()">Buscar Livros</button>
+    <select name="" id="filtro" onchange="searchBooks(document.getElementById('filtro'))">
+      <option value="matematica">Matemática</option>
+      <option value="fisica">Fisica</option>
+      <option value="historia">História</option>
+      <option value="geografia">Geografia</option>
+      <option value="portugues">Português</option>
+    </select>
+    <h2>Favoritos</h2>
+    <ul id="lista-favoritos"></ul>
+
+    <h2>Detalhes do Livro</h2>
+    <div id="detalhes-livro">Clique em um livro para ver os detalhes.</div>
+
+    <h2>Lista de Livros</h2>
+    <ul id="lista-livros"></ul>
+
+    <footer><p>2024 Biblioteca Maricá.</p>
+        <p><a href="">Contato</a> | <a href="">Sobre Nós</a> | <a href="">Política de Privacidade</a></p>
+        <p>Endereço: Rua 02 de julho, 123 - Centro, Maricá</p>
+        <p>Telefone: (21) 1234-5678 | Email: contato@bibliotecamarica.com</p>
+
+    <script src="book.js"></script>
+  </body>
+</html>
